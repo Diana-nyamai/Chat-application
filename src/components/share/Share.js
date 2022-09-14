@@ -26,7 +26,7 @@ function Share() {
      <div className="sharewrapper">
         {/* sharetop */}
         <div className="sharetop">
-            <img className='shareprofileimg' src="../assets/person/p4.jpg" alt="profile4" />
+            <img className='shareprofileimg' src="../assets/person/p1.jpg" alt="profile4" />
             <input type="text" className='shareinput' placeholder="what is on your mind deedee?"/>
         </div>
         <hr className='sharehr'/>

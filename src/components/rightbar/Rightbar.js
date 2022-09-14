@@ -1,6 +1,6 @@
 import React from 'react'
 import Online from '../online/Online'
-import './right.css'
+import './rightbar.css'
 import {postdata} from '../post/PostData'
 
 function Rightbar() {

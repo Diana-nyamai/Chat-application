@@ -5,7 +5,7 @@ import './feed.css'
 import {postdata} from '../post/PostData'
 
 function Feed() {
-  return (
+  return(
     <div className='feed'>
         <div className="feedwrapper">
             <Share/>

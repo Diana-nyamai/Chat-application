@@ -1,6 +1,9 @@
 import React from 'react'
 import '../sidebar/sidebar.css'
 import {RssFeed,ChatBubble,PlayCircleFilledOutlined,Group,Bookmark,HelpOutline,WorkOutline,Event,School} from '@mui/icons-material'
+import Closefriend from '../closefriend/Closefriend'
+import {postdata} from '../post/PostData'
+
 
 const sidenavlists = [
     {
@@ -40,44 +43,6 @@ const sidenavlists = [
         title: 'Courses'
     }
 ]
-const friendlists = [
-    {
-        fname: 'jane doe',
-        image: '../assets/person/p2.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p3.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p2.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p3.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p2.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p3.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p2.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p3.jpg'
-    },
-    {
-        fname: 'john doe',
-        image: '../assets/person/p2.jpg'
-    }
-]
 function Sidebar() {
   return (
     <div className='sidebar'>
@@ -94,11 +59,8 @@ function Sidebar() {
         <hr className='sidebarhr'/>
         {/* friend list */}
         <ul className="sidebarfriendlist">
-            {friendlists.map(friendlist =>
-                <li className="sidebarfriend">
-                <img className='sidebarfriendimg' src={friendlist.image} alt="friendprofile" />
-                <span className='sidebarfriendname'>{friendlist.fname}</span>
-            </li>
+            {postdata.map(friendlist =>
+               <Closefriend key={friendlist.id} friendlist={friendlist}/>
                 )}
             
         </ul>

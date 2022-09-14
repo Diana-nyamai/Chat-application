@@ -1,0 +1,9 @@
+.profile{
+    display: flex;
+}
+.profileright{
+    flex: 9;
+}
+.profilerightbottom{
+    display: flex;
+}

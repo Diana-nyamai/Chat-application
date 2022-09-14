@@ -18,7 +18,7 @@ export const postdata = [
         photo: '../assets/post/post2.jpg',
         date: '5mins ago',
         userid: 2,
-        like: 32,
+        like: 200,
         comment: 9
     },
     {
@@ -29,7 +29,7 @@ export const postdata = [
         photo: '../assets/post/post3.jpg',
         date: '5mins ago',
         userid: 3,
-        like: 32,
+        like: 1000,
         comment: 9
     },
     {
@@ -40,7 +40,7 @@ export const postdata = [
         photo: '../assets/post/post4.jpg',
         date: '5mins ago',
         userid: 4,
-        like: 32,
+        like: 60,
         comment: 9
     },
     {
@@ -51,7 +51,7 @@ export const postdata = [
         photo: '../assets/post/post5.jpg',
         date: '5mins ago',
         userid: 5,
-        like: 32,
+        like: 320,
         comment: 9
     }
 ]

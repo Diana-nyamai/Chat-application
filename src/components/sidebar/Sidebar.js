@@ -7,38 +7,47 @@ import {postdata} from '../post/PostData'
 
 const sidenavlists = [
     {
+        id: 1,
         icon: <RssFeed className="sidebaricon"/>,
         title: 'Feed'
     },
     {
+        id: 2,
         icon: <ChatBubble className="sidebaricon"/>,
         title: 'Chats'
     },
     {
+        id: 3,
         icon: <PlayCircleFilledOutlined className="sidebaricon"/>,
         title: 'Videos'
     },
     {
+        id: 4,
         icon: <Group className="sidebaricon"/>,
         title: 'Groups'
     },
     {
+        id: 5,
         icon: <Bookmark className="sidebaricon"/>,
         title: 'Bookmarks'
     },
     {
+        id: 6,
         icon: <HelpOutline className="sidebaricon"/>,
         title: 'Questions'
     },
     {
+        id: 7,
         icon: <WorkOutline className="sidebaricon"/>,
         title: 'Jobs'
     },
     {
+        id: 8,
         icon: <Event className="sidebaricon"/>,
         title: 'Events'
     },
     {
+        id: 9,
         icon: <School className="sidebaricon"/>,
         title: 'Courses'
     }
@@ -49,7 +58,7 @@ function Sidebar() {
       <div className="sidebarWrapper">
         <ul className="sidebarlist">
             {sidenavlists.map(sidenavlist =>
-                  <li className="sidebarlistitem">
+            <li key={sidenavlist.id} className="sidebarlistitem">
                 {sidenavlist.icon}
                 <span className="sidebarlistitemtext">{sidenavlist.title}</span>
             </li>

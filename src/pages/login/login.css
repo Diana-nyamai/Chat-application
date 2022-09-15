@@ -1,0 +1,24 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginwrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+.loginleft,.loginright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginlogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #208871;
+}

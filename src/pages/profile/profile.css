@@ -34,6 +34,10 @@
 .profileinfoname{
     font-size: 20px;
 }
+.profileinfodesc{
+    font-size: 15px;
+    color: #555;
+}
 .profilerightbottom{
     display: flex;
 }

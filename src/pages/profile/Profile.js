@@ -20,7 +20,7 @@ function Profile() {
                   </div>
                   <div className="profileinfo">
                     <h4 className="profileinfoname">deedee nyamai</h4>
-                    <span className="profileinfodesc">i am a frontend developer</span>
+                    <span className="profileinfodesc">I am a frontend developer</span>
                   </div>
                 </div>
 

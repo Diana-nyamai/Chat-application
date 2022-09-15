@@ -3,7 +3,7 @@ import Online from '../online/Online'
 import './rightbar.css'
 import {postdata} from '../post/PostData'
 
-function Rightbar() {
+function Rightbar({profile}) {
   return (
     <div className='rightbar'>
       <div className="rightbarwrapper">

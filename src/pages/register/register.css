@@ -1,4 +1,4 @@
-.login{
+.register{
     width: 100vw;
     height: 100vh;
     background-color: #f0f2f5;
@@ -6,29 +6,29 @@
     align-items: center;
     justify-content: center;
 }
-.loginwrapper{
+.registerwrapper{
     width: 70%;
     height: 70%;
     display: flex;
 }
-.loginleft,.loginright{
+.registerleft,.registerright{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* border: 1px solid black; */
 }
-.loginlogo{
+.registerlogo{
     font-size: 50px;
     font-weight: 800;
     color: #208871;
     margin-bottom: 10px;
 }
-.logindesc{
+.registerdesc{
     font-size: 24px;
 }
-.loginbox{
-    height: 300px;
+.registerbox{
+    height: 400px;
     padding: 20px;
     background-color: #fff;
     border-radius: 15px;
@@ -36,7 +36,7 @@
     justify-content: space-between;
     flex-direction: column;
 }
-.logininput{
+.registerinput{
     height: 40px;
     border-radius: 5px;
     border: 1px solid #555;
@@ -44,7 +44,7 @@
     padding-left: 20px;
     outline: none;
 }
-.loginbutton,.loginregisterbutton{
+.registerbutton,.loginregisterbutton{
     outline: none;
     height: 40px;
     border-radius: 5px;
@@ -55,7 +55,7 @@
     font-size: 18px;
     cursor: pointer;
 }
-.loginforget{
+.registerforget{
     text-align: center;
     color: #208871;
 }

@@ -91,8 +91,7 @@ function Rightbar({profile}) {
   return (
     <div className='rightbar'>
       <div className="rightbarwrapper">
-        <Profilerightbar/>
-        <Homerightbar/>
+        {profile? <Profilerightbar/>: <Homerightbar/>}
       </div>
       </div>
   )
